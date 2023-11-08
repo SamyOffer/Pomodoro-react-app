@@ -11,6 +11,7 @@ function App() {
 
   return (
     <main className="App">
+      <h1>Pomodoro Timer</h1>
       <SettingsContext.Provider value={ {
         worksTime , 
         breaksTime,
