@@ -1,38 +1,11 @@
-.App {
+body{
+  background-color: rgb(34, 40, 49);
+  color: #eee
+}
+
+main{
+  padding-top: 50px; /* Cette ligne ajoute un espacement de 50 pixels en haut de l'élément */
+  max-width: 340px ; /* Cette ligne limite la largeur maximale de l'élément à 300 pixels. */
+  margin: 0 auto; /* Cette ligne centre l'élément par rapport à la page, Cette ligne définit la marge de l'élément. Le 0 signifie qu'il n'y a pas de marge en haut, en bas, à gauche et à droite. Le auto signifie que l'élément sera centré horizontalement sur la page. */
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
